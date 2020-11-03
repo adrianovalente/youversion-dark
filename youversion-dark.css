@@ -1,0 +1,78 @@
+@-moz-document domain("my.bible.com") {
+html, body {
+  background-color: #141414;
+}
+
+#current-ui-view {
+    background-color: #353535;
+    color: #f4f4f4;
+}
+
+.reader > h1 {
+  color: #f4f4f4;
+}
+
+
+.reader-header {
+  border: none !important;
+}
+
+/* footer */
+.yv-sticky-header-content {
+  background-color: #555 !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+/* youversion logo */
+.yv-left > div > svg > g > g {
+  fill: #ababab;
+}
+
+.yv-lang-toggle {
+  border-color: #ababab !important;
+  color: #ababab !important;
+}
+
+/* selectors and text input */
+.picker-label > input, .search > input, .search, .searchicon-container {
+  background-color: #444 !important;
+  color: #fafafa !important;;
+}
+
+.dropdown-arrow-container > svg > polygon {
+  fill: #fafafa !important;;
+}
+
+.reader-header.horizontal-center {
+  background-color: #2a2a2a;
+}
+
+.yv-header > .yv-sticky-header-content {
+  background-color: #141414 !important;
+}
+
+/* next, previous chapter arrows */
+.circle-buttons {
+  background-color: #282828;
+  border-color: #525252;
+}
+
+.reader-arrow > path {
+  fill: #ddd;
+}
+
+/* verse action */
+.verse-action-footer {
+  background-color: #222;
+}
+
+.close-button, .verse-selection {
+  color: #ddd !important;
+}
+
+.yv-button-bar-button-content {
+  background-color: #444;
+}
+
+}
